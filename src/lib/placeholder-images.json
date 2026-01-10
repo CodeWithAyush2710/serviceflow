@@ -1,3 +1,52 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "plumbing",
+      "description": "Plumbing services",
+      "imageUrl": "https://images.unsplash.com/photo-1683115097173-f24516d000c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwbHVtYmluZyUyMHRvb2xzfGVufDB8fHx8MTc2ODA1MjY0OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "plumbing tools"
+    },
+    {
+      "id": "electrical",
+      "description": "Electrical services",
+      "imageUrl": "https://images.unsplash.com/photo-1605313294941-ea43850d9de5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxlbGVjdHJpY2FsJTIwd2lyaW5nfGVufDB8fHx8MTc2ODAzOTc5NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "electrical wiring"
+    },
+    {
+      "id": "cleaning",
+      "description": "Home cleaning services",
+      "imageUrl": "https://images.unsplash.com/photo-1649073005971-37babef31983?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjbGVhbmluZyUyMHN1cHBsaWVzfGVufDB8fHx8MTc2ODA1MjY0OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cleaning supplies"
+    },
+    {
+      "id": "landscaping",
+      "description": "Landscaping and gardening",
+      "imageUrl": "https://images.unsplash.com/photo-1713371765638-8cf84d350b74?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYW5pY3VyZWQlMjBnYXJkZW58ZW58MHx8fHwxNzY3OTMxOTkzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "manicured garden"
+    },
+    {
+      "id": "moving",
+      "description": "Moving services",
+      "imageUrl": "https://images.unsplash.com/photo-1714647211902-bb711d643a17?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtb3ZpbmclMjBib3hlc3xlbnwwfHx8fDE3NjgwNTI2NDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "moving boxes"
+    },
+    {
+      "id": "painting",
+      "description": "Interior and exterior painting",
+      "imageUrl": "https://images.unsplash.com/photo-1511822148790-e7b58ba14c72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxwYWludGluZyUyMHdhbGx8ZW58MHx8fHwxNzY4MDM5Nzk1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "painting wall"
+    },
+    {
+      "id": "assembly",
+      "description": "Furniture assembly",
+      "imageUrl": "https://images.unsplash.com/photo-1670498379247-d756fab29730?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxmdXJuaXR1cmUlMjBhc3NlbWJseXxlbnwwfHx8fDE3NjgwMDQ4MTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "furniture assembly"
+    },
+    {
+      "id": "repairs",
+      "description": "General home repairs",
+      "imageUrl": "https://images.unsplash.com/photo-1707194402164-20c7fbe224a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx0b29sYm94JTIwcmVwYWlyfGVufDB8fHx8MTc2ODA1MjY0OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "toolbox repair"
+    }
+  ]
 }
