@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, use } from 'react';
 import { notFound } from 'next/navigation';
 import MapComponent from '@/components/map-component';
 import { bookings, partners } from '@/lib/data';
@@ -23,9 +23,10 @@ const statusIcons: Record<Booking['status'], React.ReactNode> = {
   'Timed-Out': <Circle className="h-5 w-5 text-destructive" />,
 };
 
-export default function BookingTrackingPage({ params }: { params: { id: string } }) {
+export default function BookingTrackingPage({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = use(params);
   const [booking, setBooking] = useState<Booking | undefined>(
-    bookings.find((b) => b.id === params.id)
+    bookings.find((b) => b.id === id)
   );
 
   // Simulate real-time partner location updates
