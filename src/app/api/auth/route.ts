@@ -34,6 +34,22 @@ export async function POST(req: Request) {
 
             return NextResponse.json({ success: true, user: newUser });
         } else if (action === 'login') {
+            // Special Dummy Login for Verification (Configured via Env)
+            const adminUser = process.env.ADMIN_USERNAME;
+            const adminPass = process.env.ADMIN_PASSWORD;
+
+            if (adminUser && adminPass && mobile === adminUser && password === adminPass) {
+                return NextResponse.json({
+                    success: true,
+                    user: {
+                        _id: 'dummy_admin_id_123',
+                        name: adminUser,
+                        role: 'admin',
+                        mobile: adminUser
+                    }
+                });
+            }
+
             const user = await User.findOne({ mobile });
             if (!user) {
                 return NextResponse.json({ error: 'User not found' }, { status: 404 });
