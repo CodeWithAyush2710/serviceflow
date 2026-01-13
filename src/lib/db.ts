@@ -1,5 +1,11 @@
-import mongoose from 'mongoose';
 
+/**
+ * Global is used here to maintain a cached connection across hot reloads
+ * in development. This prevents connections growing exponentially
+ * during API Route usage.
+ */
+// @ts-ignore
+let cached = global.mongoose;
 
 if (!cached) {
   // @ts-ignore
